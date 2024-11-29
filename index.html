@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#writings" class="nav-link">My Writings</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m a legal enthusiast with expertise in corporate litigation, Indian law, and a passion for running my coffee farm in Chikmagalur. Here, I share my writings, insights, and experiences.</p>
+        </section>
+
+        <!-- Writings Section -->
+        <section id="writings">
+            <h2>My Writings</h2>
+            <button class="toggle-button" data-target="tokyo-trials">Show: The Setting of an Example - Tokyo Trials</button>
+            <div id="tokyo-trials" class="writing-item">
+                <h3>The Setting of an Example - Tokyo Trials</h3>
+                <iframe src="tokyo-trials.pdf" width="100%" height="400px"></iframe>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email or phone:</p>
+            <button class="contact-btn" onclick="window.location.href='mailto:saptarshimandalofficial666@gmail.com'">Email Me</button>
+            <p>Phone: <strong>+91 9007976783</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

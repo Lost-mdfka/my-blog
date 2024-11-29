@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: black;
+    color: #f8f8f2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    width: 8.5in;
+    height: 14in;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #FFD700;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.writing-item {
+    margin-top: 1rem;
+    display: none;
+}
+
+button.toggle-button {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button.toggle-button:hover {
+    background-color: #b98b00;
+}
+
+footer {
+    background-color: #333;
+    color: #f8f8f2;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact Button */
+.contact-btn {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #b98b00;
+}
+
+p strong {
+    color: #FFD700;
+}
